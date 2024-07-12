@@ -1,8 +1,10 @@
-import './App.css';
+import Contact from "./pages/contact"; // Import the contact component
 
 function App() {
   return (
-      <h1>Qitchen</h1>
+    <>
+      <Contact /> {/* Render the contact component */}
+    </>
   );
 }
 
